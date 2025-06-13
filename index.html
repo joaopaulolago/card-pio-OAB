@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cardápio do Arraiá</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #fff8e1;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #b71c1c;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      background-color: #f44336;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ccc;
+      padding: 8px 0;
+      flex-wrap: wrap;
+    }
+
+    .item-name {
+      font-weight: 500;
+      flex: 1 1 70%;
+    }
+
+    .item-price {
+      font-weight: bold;
+      flex: 1 1 30%;
+      text-align: right;
+    }
+
+    @media (max-width: 600px) {
+      .item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .item-price {
+        text-align: left;
+        margin-top: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Cardápio do Arraiá 🎉</h1>
+
+  <div class="section">
+    <h2>Pra Comê... 🍽️</h2>
+    <div class="item"><div class="item-name">Arroz Carreteiro</div><div class="item-price">R$ 25,00</div></div>
+    <div class="item"><div class="item-name">Batata Recheada (Frango ao molho Vermelho)</div><div class="item-price">R$ 25,00</div></div>
+    <div class="item"><div class="item-name">Batata Recheada (Strogonoff de Carne)</div><div class="item-price">R$ 28,00</div></div>
+    <div class="item"><div class="item-name">Cachorro Quente</div><div class="item-price">R$ 10,00</div></div>
+    <div class="item"><div class="item-name">Espetinho (Carne, Frango, Kafta, Linguiça)</div><div class="item-price">R$ 9,00</div></div>
+    <div class="item"><div class="item-name">Hot Philadelfia (05 unidades)</div><div class="item-price">R$ 17,00</div></div>
+    <div class="item"><div class="item-name">Milho</div><div class="item-price">R$ 5,00</div></div>
+    <div class="item"><div class="item-name">Mini Pizza Doce</div><div class="item-price">R$ 14,00</div></div>
+    <div class="item"><div class="item-name">Mini Pizza Salgada</div><div class="item-price">R$ 12,00</div></div>
+    <div class="item"><div class="item-name">Pastel Carne</div><div class="item-price">R$ 15,00</div></div>
+    <div class="item"><div class="item-name">Pastel Pizza</div><div class="item-price">R$ 16,00</div></div>
+    <div class="item"><div class="item-name">Pastel Queijo</div><div class="item-price">R$ 18,00</div></div>
+    <div class="item"><div class="item-name">Pastel Carne c/ Queijo</div><div class="item-price">R$ 19,00</div></div>
+    <div class="item"><div class="item-name">Pastel Frango c/ Catupiry</div><div class="item-price">R$ 20,00</div></div>
+    <div class="item"><div class="item-name">Sushi Tradicional (05 unidades)</div><div class="item-price">R$ 17,00</div></div>
+    <div class="item"><div class="item-name">Uramaki Phila (05 Unidades)</div><div class="item-price">R$ 17,00</div></div>
+    <div class="item"><div class="item-name">Yakisoba</div><div class="item-price">R$ 25,00</div></div>
+  </div>
+
+  <div class="section">
+    <h2>Pra Moia o Bico... 🥤</h2>
+    <div class="item"><div class="item-name">Água Mineral - com e sem gás</div><div class="item-price">R$ 3,00</div></div>
+    <div class="item"><div class="item-name">Chocolate Quente</div><div class="item-price">R$ 10,00</div></div>
+    <div class="item"><div class="item-name">Chopp 300ml</div><div class="item-price">R$ 6,00</div></div>
+    <div class="item"><div class="item-name">Milkshake (300ml)</div><div class="item-price">R$ 13,00</div></div>
+    <div class="item"><div class="item-name">Milkshake (400ml)</div><div class="item-price">R$ 16,00</div></div>
+    <div class="item"><div class="item-name">Quentão (180 ml)</div><div class="item-price">R$ 5,00</div></div>
+    <div class="item"><div class="item-name">Refrigerante Lata (coca-cola/coca-cola Zero/ Guaraná/Guaraná zero) </div><div class="item-price">R$ 6,00</div></div>
+    <div class="item"><div class="item-name">Suco Laranja Life 300ml</div><div class="item-price">R$ 8,00</div></div>
+    <div class="item"><div class="item-name">Vinho Quente (180 ml)</div><div class="item-price">R$ 5,00</div></div>
+  </div>
+
+  <div class="section">
+    <h2>Pra Adoçá a Vida... 🍬</h2>
+    <div class="item"><div class="item-name">Arroz Doce</div><div class="item-price">R$ 10,00</div></div>
+    <div class="item"><div class="item-name">Bombom de Milho</div><div class="item-price">R$ 6,00</div></div>
+    <div class="item"><div class="item-name">Brownie</div><div class="item-price">R$ 6,00</div></div>
+    <div class="item"><div class="item-name">Canjica</div><div class="item-price">R$ 10,00</div></div>
+    <div class="item"><div class="item-name">Cascão</div><div class="item-price">R$ 10,00</div></div>
+    <div class="item"><div class="item-name">Churros Gourmet (Doce de leite ou Brigadeiro)</div><div class="item-price">R$ 15,00</div></div>
+    <div class="item"><div class="item-name">Churros Gourmet (Nutella)</div><div class="item-price">R$ 18,00</div></div>
+    <div class="item"><div class="item-name">Churros Tradicional (Doce de leite ou Brigadeiro)</div><div class="item-price">R$ 12,00</div></div>
+    <div class="item"><div class="item-name">Churros Tradicional (Nutella)</div><div class="item-price">R$ 15,00</div></div>
+    <div class="item"><div class="item-name">Cookies</div><div class="item-price">R$ 14,00</div></div>
+    <div class="item"><div class="item-name">Curau</div><div class="item-price">R$ 8,00</div></div>
+    <div class="item"><div class="item-name">Espetinho de Morango</div><div class="item-price">R$ 10,00</div></div>
+    <div class="item"><div class="item-name">Pamonha</div><div class="item-price">R$ 10,00</div></div>
+    <div class="item"><div class="item-name">Pão de Mel</div><div class="item-price">R$ 8,00</div></div>
+    <div class="item"><div class="item-name">Sundae</div><div class="item-price">R$ 10,00</div></div>
+    <div class="item"><div class="item-name">Torta Cookie</div><div class="item-price">R$ 22,00</div></div>
+  </div>
+
+  <div class="section">
+    <h2>Pra se Divertir... 🎯</h2>
+    <div class="item"><div class="item-name">Bingo(4 cartelas) </div><div class="item-price">R$ 25,00</div></div>
+    <div class="item"><div class="item-name">Brinquedos Infláveis (5 minutos)</div><div class="item-price">R$ 10,00</div></div>
+    <div class="item"><div class="item-name">Brinquedos Infláveis Passaporte Único (Brinca em todos os brinquedos sem tempo definido)</div><div class="item-price">R$ 50,00</div></div>
+    <div class="item"><div class="item-name">correio elegante</div><div class="item-price">R$4,00</div></div>
+</div>
+</body>
+</html>
